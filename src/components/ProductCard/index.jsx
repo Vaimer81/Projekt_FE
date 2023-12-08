@@ -14,7 +14,7 @@ export default function ProductCard({ id, title,discont_price, image, price }) {
     <div className={s.card_item}>
       <Link to={`/products/${id}`}>
         <div className={s.card}>
-          <img src={`http://localhost:3333${image}`} alt={title} />
+          <img src={`https://projekt-be.vercel.app${image}`} alt={title} />
         </div>
 
         <div className={s.price_info}>

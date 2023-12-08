@@ -15,7 +15,7 @@ export default function CartItem({ id, title, price, count, image, discont_price
 	return (      
 	  <div className={s.card}>
 		<div>
-			 <img src={`http://localhost:3333${image}`} alt={title} />
+			 <img src={`https://projekt-be.vercel.app${image}`} alt={title} />
 		</div>
   
 		<div className={s.discr_cont}>

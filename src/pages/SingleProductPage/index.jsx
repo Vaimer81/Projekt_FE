@@ -25,7 +25,7 @@ export default function SingleProductPage() {
 
   return (
     <div className={s.product_item}>
-       <img src={`http://localhost:3333${image}`} alt={title} />
+       <img src={`https://projekt-be.vercel.app${image}`} alt={title} />
 		  <div>
 			  
 		  <p>{title}</p> 
