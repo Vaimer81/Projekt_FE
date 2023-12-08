@@ -4,7 +4,7 @@ import { loadSingleProductAction } from "../store/reducer/singleProductReducer";
 
 export const getProductsByCategory = (id) => {
   return dispatch => {
-  fetch(`https://projekt-be.vercel.app/categories/${id}`)
+  fetch(`https://be-deploy.onrender.com/categories/${id}`)
     .then(res => res.json())
     .then(json => dispatch(loadProductsByCategoryAction(json.data)))
 }
@@ -12,7 +12,7 @@ export const getProductsByCategory = (id) => {
 
 
 export const getAllProducts = dispatch => {
-  fetch('https://projekt-be.vercel.app/products/all')
+  fetch('https://be-deploy.onrender.com/products/all')
       .then(res => res.json())
       .then(json => dispatch(loadAllProductsAction(json)))
 }
@@ -20,14 +20,14 @@ export const getAllProducts = dispatch => {
 
 export const getSingleProduct = (id) => {
   return dispatch => {
-  fetch(`https://projekt-be.vercel.app/products/${id}`)
+  fetch(`https://be-deploy.onrender.com/products/${id}`)
     .then(res => res.json())
     .then(json => dispatch(loadSingleProductAction(json[0])))
 }
 }
 
 export const sendOrder = new_product => {
-	fetch('https://projekt-be.vercel.app/order/send', {
+	fetch('https://be-deploy.onrender.com/order/send', {
 	  method: 'POST',
 	  body: JSON.stringify({new_product})
 	})
@@ -37,7 +37,7 @@ export const sendOrder = new_product => {
 
 
   export const addNewProductSale = new_product => {
-	fetch('https://projekt-be.vercel.app/sale/send', {
+	fetch('https://be-deploy.onrender.com/sale/send', {
 	  method: 'POST',
 	  body: JSON.stringify({new_product})
 	})
