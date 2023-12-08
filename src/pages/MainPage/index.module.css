@@ -1,0 +1,183 @@
+.sale_container{
+    margin-top: 77px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    padding-left: 450px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: #A1E2EB;
+    ;
+
+}
+
+
+.sale_btn {    
+    cursor: pointer;
+    background-color: white;
+    color: black;   
+    border-radius: 10px;     
+    font-size: 25px;
+    font-weight: 700;
+    /* width: fit-content; */
+    padding: 25px 50px;    
+   
+}
+
+.text {   
+   color: white;
+   font-size: 80px;
+   font-weight: 700; 
+   margin-left: 40px;  
+   margin-right: 370px;
+   margin-bottom: 50px;
+}
+
+
+
+
+
+.bush {
+  margin: -70px 0px -20px 0px;    
+}
+
+/* ----------------------- */
+.catalog_container {
+    margin: 40px 10px;
+    color: rgb(0, 0, 0);
+	font-size: 20px;
+
+    
+   
+}
+
+.btn_container{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-left: 55px;
+    
+}
+
+.btn_cat{
+    width: 360px;
+    height: 95px;
+    background-size: cover;
+    border: none;
+	color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+	font-size: 40px;
+    letter-spacing: -1.9px;
+	margin-left: 30px;
+	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+	
+}
+
+
+/* ------------------------ */
+
+
+.dwarf_wrapper{
+    height: 555px;
+    width: 95%;
+    margin-left: 30px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-color: rgb(5, 225, 5);
+    
+}
+.discount_descr {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.discount_descr  h1{
+    padding-right: 200px;
+    margin-top: 50px;   
+    color: white;
+    font-size: 90px; 
+    margin-bottom: -10px;   
+}
+
+.discount_descr h2{
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: white;
+    letter-spacing: -3.5px;
+}
+
+
+.error_msg {
+    color: rgb(0, 0, 0);
+	font-size: 30px;
+}
+
+.phone_num_inp{
+    width: 473px;
+    height: 85px;
+    border: none;
+    border-radius: 20px;  
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 28px;
+   
+}
+
+.phone_num_inp::placeholder{
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    font-family: cursive;
+}
+.discount_btn{
+    width: 473px;
+    height: 75px;
+    font-size: 35px;
+    font-weight: 473;
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2.4px solid white;
+    border-radius: 25px;
+	margin-bottom: 30px;
+}
+
+/* ------------------------------ */
+
+/* sale_container */
+.product_container{
+    width: 320px;
+    
+}
+
+.gen_sale_container{
+   margin: 50px 0 0 30px; 
+}
+
+.gen_sale_container h3{
+	color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+.image img{
+	object-fit:contain;
+	position: absolute;
+	top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+

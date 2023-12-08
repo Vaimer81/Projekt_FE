@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+	font-family: 'Montserrat', sans-serif; 
+  }
+  
+  
+  
+  #root {
+	
+	max-width: 1440px;
+	margin: 0 auto;
+	
+	
+  }
+  
+  a {
+	text-decoration: none;
+	color: black;
+  } 
+  
+  html {
+	background-image: url(../src/Media/fon5.jpg);
+  }
+
+
+
+  
