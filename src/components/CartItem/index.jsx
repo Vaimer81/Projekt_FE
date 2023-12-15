@@ -15,7 +15,7 @@ export default function CartItem({ id, title, price, count, image, discont_price
 	return (      
 	  <div className={s.card}>
 		<div>
-			 <img src={`https://be-deploy.onrender.com${image}`} alt={title} />
+			 <img src={`https://project-f.onrender.com${image}`} alt={title} />
 		</div>
   
 		<div className={s.discr_cont}>
