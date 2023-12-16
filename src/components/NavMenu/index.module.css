@@ -13,6 +13,8 @@
 	text-decoration: none;
 	color: black;
   }
+
+  
   
   .nav_menu :nth-child(2) {
 	background-color: #339933;
@@ -49,4 +51,22 @@
 	padding-top: 6px;
 	margin-left: -25px;
   }
+
+
+  @media screen and (max-width: 600px) {
+	.nav_menu {
+	  flex-direction: column; /* Отображение элементов в столбец на мобильных устройствах */
+	  align-items: flex-start; /* Выравнивание элементов слева на мобильных устройствах */
+	  padding: 10px; /* Уменьшили внутренний отступ для мобильных устройств */
+	}
+  
+	.nav_menu :nth-child(3),
+	.nav_menu :nth-child(4),
+	.nav_menu :nth-child(5),
+	.nav_menu :nth-child(6) {
+	  margin-left: 0; /* Убрали отступы для мобильных устройств */
+	  margin-top: 10px; /* Добавили отступ сверху для лучшего визуального разделения */
+	}
+  }
+  
   

@@ -12,6 +12,11 @@
 
 }
 
+@media (max-width: 1200px) {
+    .main_nav_menu {
+        width: 1000px;
+    }
+
 
 .sale_btn {    
     cursor: pointer;
