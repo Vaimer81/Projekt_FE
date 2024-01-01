@@ -1,5 +1,15 @@
 .container {
-display: grid;
+	display: grid;
+	
 	grid-template-columns: repeat(4, 1fr);
-	gap: 2px;
+
+	gap: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+	
+	.container {
+	  grid-template-columns: repeat(2, 2fr);
+	  gap: 50px;
+	}
   }

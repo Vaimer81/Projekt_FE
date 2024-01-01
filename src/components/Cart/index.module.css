@@ -24,14 +24,13 @@
   }
   
   .order { 
-   position: absolute;
-   right: 36px;
-	top: 0px;  
-	width: 496px;
-	height: 393px;
-	border: 2px solid black;
-	border-radius: 16px;
-	
+    border: 2px solid rgb(0, 0, 0);
+    width: 824px;
+    padding: 15px;
+    margin: 80px 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+	border-radius: 25px;
 	}
   
 	.order h2 {
@@ -93,4 +92,3 @@
   
 
   
-	
